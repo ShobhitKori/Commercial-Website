@@ -1,0 +1,218 @@
+*{
+    margin: 0;   
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+
+}  
+.hero{
+    background: #000000;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;    
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+nav .menu-img{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+nav .logo{
+    width: 160px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: right;   
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    position: relative;
+}
+ul li a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: #999;
+    text-transform: uppercase;
+}
+ul li a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    border-radius: 5px;
+    background: #00986f;
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+}
+ul li a:hover::after{
+    width: 100%;
+    transition: 0.8s;
+}
+ul li a label{
+    color: rgb(221, 55, 55);
+    cursor: pointer;
+}
+
+
+.active{
+    background: #00986f;
+}
+.active span{
+    background: #fff;
+    margin-left: 30px;
+}
+.stdio{
+    padding-top: 50px;
+    color: #00986f;
+    background-color: #000000;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.img1{
+    width: 25%;
+    padding-top: 50px;
+    margin-left: 123px;
+    cursor: pointer;
+}
+.img2{
+    width: 25%;
+    padding-top: 50px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+.img3{
+    width: 25%;
+    padding-top: 50px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+.home_style{
+    color: #00986f;
+    background-color: #000000;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+.img4{
+    width: 20%;
+    padding-top: 50px;
+    margin-left: 123px;
+    cursor: pointer;
+}
+.img5{
+    width: 20%;
+    padding-top: 50px;
+    margin-left: 9px;
+    cursor: pointer;
+}
+.img6{
+    width: 20%;
+    padding-top: 50px;
+    margin-left: 9px;
+    cursor: pointer;
+}
+.img7{
+    width: 20%;
+    padding-top: 50px;
+    margin-left: 9px;
+    cursor: pointer;
+}
+.img8{
+    width: 25%;
+    padding-top: 50px;
+    margin-left: 123px;
+    cursor: pointer;
+}
+.img9{
+    width: 25%;
+    padding-top: 50px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+.img10{
+    width: 25%;
+    padding-top: 50px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+.floor-lamp{
+    margin-left: 240px;
+    font-size: 140%;
+    color: #999;
+}
+.table-lamp{
+    margin-top: -25px;
+    text-align: center;
+    font-size: 140%;
+    color: #999;
+}
+.chandelier{
+    margin-right: 260px;
+    margin-top: -25px;
+    font-size: 140%;
+    color: #999;
+    text-align: right;
+}
+.project{
+    color: #00986f;
+    background-color: #000000;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+.img11{
+    width: 25%;
+    padding-top: 50px;
+    margin-left: 123px;
+    cursor: pointer;
+}
+.img12{
+    width: 25%;
+    padding-top: 50px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+.img13{
+    width: 25%;
+    padding-top: 50px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+.crp{
+    text-align: center;
+    font-size: 140%;
+    color: #999;
+}
+.resc{
+    margin-top: -25px;
+    margin-left: 225px;
+    font-size: 140%;
+    color: #999;
+    
+}
+.rest{
+    margin-top: -25px;
+    margin-right: 230px;
+    margin-top: -25px;
+    font-size: 140%;
+    color: #999;
+    text-align: right;
+}
+.footer{
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(148, 147, 147);
+    background-color: rgb(66, 69, 148);
+}
